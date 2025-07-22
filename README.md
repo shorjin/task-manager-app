@@ -1,12 +1,86 @@
-# React + Vite
+# Task Manager App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management application built with React and Redux Toolkit.
+Allows users to add, edit, delete, and filter tasks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Add new tasks
+- Edit existing tasks
+- Mark tasks as completed/uncompleted
+- Delete tasks
+- Filter tasks by status and search term
+- Save tasks to browser localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##Technologies Used
+
+- React
+
+- Redux Toolkit
+
+- JavaScript (ES6+)
+
+- localStorage for data persistence
+
+
+## Usage
+
+
+```bash
+cd task-manager-app
+```
+```bash
+npm run dev
+```
+
+## Screenshots
+
+### Default App View
+Displays the default task list interface when the app loads.
+
+![Default app view](./image/default.png)
+
+---
+
+### Adding a New Task
+Shows the user inputting a new task into the list.
+
+![Add task](./image/addTask.png)
+
+---
+
+### Editing a Task
+Illustrates editing an existing task's text.
+
+![Edit task](./image/editTask.png)
+
+---
+
+### Filtering Tasks by Status
+Demonstrates filtering tasks (e.g., all, completed, pending).
+
+![Filter tasks](./image/filterTask.png)
+
+---
+
+### Filtering to Show Only Pending Tasks
+Highlights filtering specifically for pending tasks.
+
+![Filter pending tasks](./image/filterPending.png)
+
+---
+
+### Searching Tasks
+Shows the search functionality filtering tasks by keywords.
+
+![Search tasks](./image/search.png)
+
+---
+
+### Deleting a Task
+Demonstrates removing a task from the list.
+
+![Delete task](./image/delete.png)
