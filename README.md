@@ -15,7 +15,7 @@ Allows users to add, edit, delete, and filter tasks.
 - Save tasks to browser localStorage
 
 
-##Technologies Used
+## Technologies Used
 
 - React
 
